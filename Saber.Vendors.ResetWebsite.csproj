@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Saber.Vendors.ResetWebsite</RootNamespace>
+    <AssemblyName>Saber.Vendors.ResetWebsite</AssemblyName>
+    <Authors>Mark Entingh</Authors>
+    <Company>Datasilk</Company>
+    <Description>A vendor plugin for Saber (https://saber.datasilk.io/saber) that allows administrators replace their current website with the default template website.</Description>
+    <Copyright>2020 Datasilk</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://www.github.com/Datasilk/Saber-ResetWebsite</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Saber.Vendor" Version="1.0.6.2" />
+  </ItemGroup>
+</Project>
